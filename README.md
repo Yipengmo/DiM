@@ -1,8 +1,8 @@
-
+<!--
 # Introduction
 Forecasting multivariate time series (MTS) involves navigating complex temporal dynamics and inter-channel dependencies. Despite advancements in the field, existing methods often fall short in effectively addressing these challenges, leaving significant room for improvement. To tackle these issues, we introduce DiM, a novel approach that integrates a Difference-Inverted (DI) embedding strategy with a multi-head graph learning mechanism, all within the Metaformer framework.
 
-# The model architecture is demonstrated as follows: 
+**1. DiM incorporates two principal components: difference-inverted (DI) embedding and the multi-head graph learning mechanism. These components are seamlessly integrated into the Metaformer framework**
 
 <img src="./Figures/DiM_Overview.jpg" alt="Model" width="1000px">
 
@@ -14,7 +14,7 @@ Forecasting multivariate time series (MTS) involves navigating complex temporal 
 
 # DiM achieves the SOTA performance.
 <img src="./Figures/Performance.jpg" alt="graph_learning" width="1000px">
-
+-->
 
 # Usage
 ## Install Pytorch and other necessary dependencies.
