@@ -12,7 +12,7 @@ for pred_len in 96 192 336 720; do
           --data custom \
           --features M \
           --seq_len 96 \
-          --pred_len 96 \
+          --pred_len $pred_len \
           --e_layers 2 \
           --enc_in 321 \
           --dec_in 321 \
